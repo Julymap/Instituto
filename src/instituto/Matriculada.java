@@ -10,6 +10,12 @@ public class Matriculada {
  private Date fecha_inscripcion;
  private int costo;
 
+ public Matriculada(int idid, int curso, int precio, Date date){
+ id_persona=idid;
+ id_curso=curso;
+ fecha_inscripcion=date;
+ costo=precio;
+ } 
     public int getId_persona() {
         return id_persona;
     }
