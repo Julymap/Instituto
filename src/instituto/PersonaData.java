@@ -69,4 +69,13 @@ catch(Exception ex){
     System.out.println("ERROR "+ ex.getMessage());
 }
 }
+
+public List<Persona> TodosAlumnos(){
+List<Persona> Alumno= new List<Persona>;
+    
+    
+    
+    
+return
+}
 }

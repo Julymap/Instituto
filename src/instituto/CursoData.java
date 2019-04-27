@@ -64,7 +64,14 @@ stmt.executeUpdate();
 catch (Exception ex){
 System.out.println("ERROR "+ ex.getMessage());
 }
-}   
+
+
+
+
+
+
+
+
 
 
     }    //LOCALDATE NO COINCIDE CON LA BASES DE DATOS ENTONCES LO CONVERTIMOS EN DATE

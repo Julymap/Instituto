@@ -29,8 +29,8 @@ private Connection connection = null;
     
     }    //LOCALDATE NO COINCIDE CON LA BASES DE DATOS ENTONCES LO CONVERTIMOS EN DATE
     
-public void Inscribir (Persona persona, Curso curso){
-    matricula = new Matriculada();
+public void Inscribir (Matriculada matricula){
+    
 try {String sql= "insert into matriculada (id_persona, id_curso, fecha_inscripcion, costo) values (?,?,?,?)";
     PreparedStatement stmt= connection.prepareStatement (sql, Statement.RETURN_GENERATED_KEYS);
     stmt.setInt(1,matricula.getId_persona());
